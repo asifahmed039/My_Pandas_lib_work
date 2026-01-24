@@ -1,0 +1,7 @@
+1-Insert new column in existing data frame 
+    first way:
+    df.insert(index_no,col_name,[list])
+    second way:
+
+
+2-
