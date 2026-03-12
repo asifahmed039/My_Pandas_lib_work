@@ -13,3 +13,20 @@ print(df)
 df['Age'].fillna(df['Age'].mean(),inplace=True)
 df['Salary'].fillna(df['Salary'].mean(),inplace=True)
 print(df)
+"""     
+interpolate:- Wih the help of interpolate we insert the estimated value.
+  only for numbric value
+    10
+    20
+    nan
+    40
+    50 
+    Algo:-
+    linear interpolation
+    1-preserve data integrity
+    2-smooth trends
+    3-avoid data loss
+
+    interpolate()
+    
+"""

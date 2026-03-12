@@ -1,3 +1,5 @@
+#update value at particular position
+
 import pandas as pd
 
 data={
@@ -14,3 +16,5 @@ print(df)
 
 df.loc[0,'Salary']=50000+(50000 * 0.1)
 print(df)
+
+

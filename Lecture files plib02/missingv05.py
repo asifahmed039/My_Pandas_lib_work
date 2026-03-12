@@ -11,3 +11,9 @@ print(df)
 print("After interpolation")
 df['value']=df["value"].interpolate(method="linear")
 print(df)
+
+"""
+1-linear series data
+2-numberic data with trends
+3-avoid dropping rows
+"""

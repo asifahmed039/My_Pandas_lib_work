@@ -18,4 +18,6 @@ data={
 df=pd.DataFrame(data)
 print(df)
 print(df.isnull().sum())
+#drop nan value from data set.
+
 

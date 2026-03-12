@@ -2,6 +2,14 @@
     first way:
     df.insert(index_no,col_name,[list])
     second way:
+    df['bonus']=df['salary']*0.1
 
 
-2-
+2-Insert value in particular postion(cell).
+    df.loc[index_no,col_name]
+    
+3-Delete one or more column from table
+   use drop() method
+    df.drop(column=[col_name1,col_name2....],inplace=True)
+
+4-
