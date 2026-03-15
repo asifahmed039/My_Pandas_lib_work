@@ -10,11 +10,12 @@ data={
 }
 
 df=pd.DataFrame(data)
-print(df)
+# print(df)
 #.loc[]
 #df.loc[row_index,"column name"]=new_value
 
 df.loc[0,'Salary']=50000+(50000 * 0.1)
+df.loc[0,'Performance Score']=90
 print(df)
 
 

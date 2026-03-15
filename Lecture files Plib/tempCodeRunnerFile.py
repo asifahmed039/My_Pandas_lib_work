@@ -1,1 +1,1 @@
-
+'country_name','power_ful'

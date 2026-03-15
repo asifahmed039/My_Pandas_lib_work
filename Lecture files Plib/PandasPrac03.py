@@ -6,5 +6,4 @@ data={
 }
 
 df=pd.DataFrame(data)
-# print(df[(df['Area']>3) & (df['power_ful']>8)])
-print(df[df['country_name']=="India"])
+print(df[df['Area']>3])
